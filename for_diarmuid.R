@@ -1,8 +1,5 @@
 library("reshape2")
 library("zoo")
-library("xts")
-library("rio")
-library("parsedate")
 library("janitor")
 library("dplyr")
 library("tidyverse")
