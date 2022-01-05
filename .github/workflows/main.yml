@@ -15,7 +15,7 @@ jobs:
           Rscript -e "install.packages(c('tidyverse', 'janitor', 'zoo', 'httr', 'openxlsx', 'ISOweek', 'CSOdata', 'openxlsx'))"
       - name: Render r plot file
         run:
-          Rscript -e "source('fordiarmuid.R')"
+          Rscript -e "source('for_diarmuid.R')"
       - name: Commit results
         run: |
           git add -A
